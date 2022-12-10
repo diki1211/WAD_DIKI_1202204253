@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Roboto", monospace;
+}
+
+/* Awal Cart Button */
+.cart {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.notif {
+  right: -18px;
+}
+
+.notif-10 {
+  right: -25px;
+}
+/* Akhir Cart Button */
+
+/* Awal home */
+#jumbotron {
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #jumbotron {
+    background-position-x: -130px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #jumbotron {
+    background-position-x: -220px;
+  }
+}
+/* Akhir home */
+
+/* Awal Features */
+#features .features-box {
+  width: 180px;
+}
+
+.features-box h6 {
+  background-color: #fddde4;
+}
+
+.features-box:nth-child(2) h6 {
+  background-color: #cdebbc;
+}
+
+.features-box:nth-child(3) h6 {
+  background-color: #d1e8f2;
+}
+
+.features-box:nth-child(4) h6 {
+  background-color: #cdd4f8;
+}
+
+.features-box:nth-child(5) h6 {
+  background-color: #f6dbf6;
+}
+
+.features-box:nth-child(6) h6 {
+  background-color: #fff2e5;
+}
+/* Akhir Features */
+
+/* Awal Card */
+.card {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+.card img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.card-body span {
+  font-size: 14px;
+  color: #606063;
+}
+
+.card-body h5 {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.card-body h4 {
+  font-size: 15px;
+}
+
+.detail {
+  right: 10px;
+  bottom: 10px;
+}
+/* Akhir Card */
+
+/* Awal Banner */
+#banner {
+  color: rgb(6, 1, 1);
+  background-image: url("../img/banner/b2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.discount {
+  color: red;
+}
+/* Akhir Banner */
+
+/* Awal Banner Group*/
+.box {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.box h4 {
+  font-size: 20px;
+}
+
+.box h2 {
+  font-size: 28px;
+}
+
+.box span {
+  font-size: 14px;
+}
+
+.box-1 {
+  background-image: url("../img/banner/b17.jpg");
+}
+
+.box-2 {
+  background-image: url("../img/banner/b10.jpg");
+}
+
+.box-sm {
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-sm h2 {
+  color: white;
+  font-size: 22px;
+}
+
+.box-sm h3 {
+  color: red;
+  font-size: 15px;
+}
+
+.box-sm-1 {
+  background-image: url("../img/banner/b7.jpg");
+}
+
+.box-sm-2 {
+  background-image: url("../img/banner/b4.jpg");
+}
+
+.box-sm-3 {
+  background-image: url("../img/banner/b18.jpg");
+}
+/* Akhir Banner Group */
+
+/* Awal Footer */
+#footer {
+  background-color: #f6f6f6;
+}
+
+#footer h4 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+#footer .mid a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.follow .icon {
+  cursor: pointer;
+}
+
+.install-payment img {
+  width: 50%;
+  cursor: pointer;
+}
+/* Akhir Footer */
+
+/* Awal Page Header */
+#page-header {
+  height: 40vh;
+  background-size: cover;
+  color: white;
+  margin-top: 70px;
+}
+
+.shop-header {
+  background-image: url("../img/banner/b1.jpg");
+}
+
+.blog-header {
+  background-image: url("../img/banner/b19.jpg");
+}
+
+.about-header {
+  background-image: url("../img/about/banner.png");
+}
+/* Akhir Page Header */
+
+/* Awal Product Detail */
+#product-detail {
+  margin-top: 130px;
+}
+
+.quantity {
+  outline: none;
+  width: 50px;
+  height: 38px;
+  text-align: center;
+}
+
+.detail-text {
+  text-align: justify;
+  margin: 0;
+}
+
+.size-box {
+  width: 100px;
+}
+/* Akhir Product Detail */
+
+/* Awal Blog */
+#blog {
+  margin-top: 150px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog a {
+  text-decoration: none;
+  font-size: 11px;
+  color: black;
+  position: relative;
+}
+
+#blog a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 7px;
+  right: -60px;
+}
+
+#blog a:hover {
+  color: #6c757d;
+}
+
+#blog a:hover::after {
+  background-color: #6c757d;
+}
+
+#blog h1 {
+  font-size: 70px;
+  color: #c9cbce;
+  position: absolute;
+  top: -63px;
+  left: 0;
+  z-index: -1;
+}
+
+.box-blog {
+  margin-bottom: 100px;
+}
+/* Akhir Blog */
+
+/* Awal About */
+#about p {
+  text-align: justify;
+}
+
+#about-app video {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #about iframe {
+    height: 265px;
+  }
+}
+/* Akhir About */
+
+/* Awal Contact Detail */
+#contact-detail span,
+#form-detail span {
+  font-size: 12px;
+}
+
+#contact-detail h2,
+#form-detail h2 {
+  font-size: 26px;
+  line-height: 35px;
+}
+
+#contact-detail h3 {
+  font-size: 16px;
+}
+
+#contact-detail li {
+  list-style: none;
+  display: flex;
+}
+
+#contact-detail li i {
+  font-size: 14px;
+  padding-right: 22px;
+  padding-top: 1px;
+}
+
+#contact-detail li p {
+  font-size: 14px;
+}
+
+.people div {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.people div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+/* Akhir Contact Detail */
+
+/* Awal Cart */
+#cart {
+  overflow-x: auto;
+}
+
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#cart table img {
+  width: 70px;
+}
+
+#cart table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+
+#cart table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(3) {
+  width: 200px;
+  text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6),
+#cart table td:nth-child(7) {
+  width: 150px;
+  text-align: center;
+}
+
+#cart table thead {
+  border: 1px solid #e2e6e9;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+#cart table tbody tr td {
+  padding-top: 15px;
+}
+
+#cart table tbody td {
+  font-size: 13px;
+}
+
+#cart .remove:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.cart-totals table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-totals table td {
+  width: 50%;
+  border: 1px solid #e2e6e9;
+  padding: 10px;
+  font-size: 13px;
+}
+/* Akhir Cart */
+
+/* Awal Admin Page */
+#information i {
+  font-size: 40px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+/* Akhir Admin Page */
+
+/* Awal Auth Pahe */
+.left-side {
+  background-image: url("../img/vendor5.png");
+  background-size: cover;
+}
+
+.form-login-register {
+  width: 80%;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.link {
+  color: #212529;
+}
+
+.link:hover {
+  color: #424649;
+}
+/* Akhir Auth Page */
+
